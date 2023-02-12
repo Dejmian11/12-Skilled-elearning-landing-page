@@ -1,0 +1,9 @@
+@use '../abstracts/' as *;
+
+.site-logo {
+  max-width: 89px;
+
+  @include respond(lg) {
+    max-width: 114px;
+  }
+}

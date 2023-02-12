@@ -1,0 +1,10 @@
+@use '../abstracts/' as *;
+
+.footer {
+  padding-block: var(--su-700);
+  background-color: var(--clr-secondary-200);
+
+  @include respond(lg) {
+    padding-block: var(--su-600);
+  }
+}

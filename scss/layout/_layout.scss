@@ -1,0 +1,29 @@
+@use '../abstracts/' as *;
+
+.wrapper {
+  padding-inline: 1rem;
+  margin-inline: auto;
+
+  @include respond(sm) {
+    max-width: 540px;
+  }
+
+  @include respond(md) {
+    padding-inline: 0;
+    max-width: 689px;
+  }
+
+  @include respond(lg) {
+    max-width: 960px;
+  }
+
+  @include respond(xl) {
+    max-width: 1110px;
+  }
+}
+
+.flex-group {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

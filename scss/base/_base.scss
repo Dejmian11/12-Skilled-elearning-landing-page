@@ -1,0 +1,11 @@
+@use '../abstracts/' as *;
+
+body {
+  position: relative;
+  background-image: var(--gradient-neutral);
+}
+
+body,
+main {
+  overflow-x: hidden;
+}

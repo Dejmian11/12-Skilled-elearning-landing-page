@@ -1,0 +1,12 @@
+@use '../abstracts/' as *;
+
+.header {
+  padding-block: var(--su-400);
+
+  @include respond(md) {
+    position: absolute;
+    z-index: 1;
+    min-width: 100vw;
+    padding-block: var(--su-500);
+  }
+}
